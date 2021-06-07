@@ -1,0 +1,222 @@
+/* Design and Layout*/
+html {
+  /* Specify the positioning method*/
+  position: relative;
+
+  /* Set the Box-model to configure the margins, borders, padding, and content */
+  min-height: 100%;
+}
+
+body {
+  /* Positioning of the body */
+  margin-bottom: 150px;
+
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+  /* Visual */
+  background-color: #5D8AA8;
+}
+
+/* Change the background color of the body element when browser window is less than 760px - Media query for body */
+@media only screen and (max-width: 760px) {
+  /* change background color to white on small screens */
+  body {
+    background-color: #fff;
+  }
+}
+
+/* ----configure navbar---- */
+.navbar-custom {
+  background-color: #89CFF0;
+}
+
+#logo {
+  /* Set Box-model */
+  height: 60px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+
+  margin-left: 70px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+
+  background: #89CFF0;
+}
+
+/* Change Logo color when hovered over */
+#logo:hover {
+
+  opacity: 0.8;
+}
+
+.navbar-right-custom {
+  /* Set Box-model */
+  padding-top: 6px;
+  padding-right: 20px;
+
+  /* Font Styling */
+  font-family: Arial;
+  font-weight: lighter;
+}
+
+/* Change Nav element color when hovered over */
+.navbar-default .navbar-nav > li > a:hover {
+  color: #4aaaa5;
+}
+
+/* Change the background color of the body element when browser window is less than 760px - Media query */
+@media only screen and (max-width: 760px) {
+  .navbar-header {
+    background-color: #4aaaa5;
+  }
+
+  #logo {
+    width: 100%;
+
+    /* Set the Box-model to configure the margins, borders, padding, and content */
+    height: 60px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+
+    /* Positioning */
+    margin-left: 0;
+    font-family: Georgia, Times, "Times New Roman", serif;
+
+    /* Typography */
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+
+    background: #4aaaa5;
+  }
+}
+
+/* ----Layout and design for Description---- */
+.description-header {
+  /* Header Positioning */
+  margin-bottom: 32px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+
+  /* Font Styling */
+  font-size: 31px;
+  font-weight: bold;
+  color: #4aaaa5;
+}
+
+.description-content {
+  /* Set Box-model */
+  padding: 30px;
+
+  /* Position of description content */
+  margin-top: 31px;
+
+  background-color: #fff;
+}
+
+.description-content > p {
+  /* Set Box-model */
+  padding-top: 20px;
+
+  /* Font Styling */
+  font-size: 16px;
+  line-height: 30px;
+  color: slategray;
+}
+
+.description-text {
+  padding-bottom: 20px;
+}
+
+#description-image {
+  /* Positioning of image */
+  float: left;
+
+  /* Set Box-model */
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+/* Change the background color of the body element when browser window is less than 760px - Media query */
+@media only screen and (max-width: 760px) {
+
+  .description-content {
+    /* Set Box-model */
+    padding: 0;
+
+    /* Content Position */
+    margin-top: 0;
+  }
+}
+
+#imageNav-area {
+  width: 100%;
+
+  /* Set Box-model */
+  padding: 30px 30px 43px;
+
+  margin-top: 32px;
+
+  /* Visual */
+  background-color: #fff;
+}
+
+.imageNav-header {
+  /* Header Position */
+  margin-bottom: 15px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+
+  /* Font Styling */
+  font-size: 25px;
+  font-weight: bold;
+  color: #4aaaa5;
+}
+
+.imageNav-photo {
+  width: 140px;
+
+  /* Set Box-model */
+  height: 140px;
+}
+
+.imageNav-photo:hover {
+
+  opacity: 0.7;
+}
+
+.imageNav-photo.active {
+
+  border: 2px solid #4aaaa5;
+}
+
+#images {
+  /* Set Box-model */
+  padding-top: 15px;
+
+  /* Font Styling */
+  text-align: center;
+}
+
+/* ----IMAGE NAV END---- */
+
+/* ----Set up COMPARISON tab---- */
+.comparison-image:hover {
+  opacity: 0.7;
+}
+
+.comparison-header {
+  /* Position the header */
+  margin-bottom: 10px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+
+  /* Typography */
+  font-size: 20px;
+  font-weight: bold;
+  color: #4aaaa5;
+  text-align: center;
+}
+
